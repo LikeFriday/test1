@@ -1,0 +1,34 @@
+/* 할일 아이템 박스 스타일 적용 */
+.Item{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgb(240,240,240);
+}
+
+/* 체크박스를 감싼 박스에 스타일 적용 */
+.checkbox_col{
+    width: 20px;
+}
+
+/* 할 일 텍스트를 감싼 박스에 스타일 적용 */
+.title_col{
+     flex: 1; /* 부모크기에 맞춰서 최대한의 크기로 키워줘 */
+}
+
+/* 할 일 아이템 등록시간을 감싼 박스에 스타일 적용 */
+.date_col{
+    font-size: 14px;
+    color: gray;
+}
+
+/* 삭제 버튼에 스타일 적용 */
+.btn_col{
+    cursor: pointer;
+    color: gray;
+    border: none;
+    font-size: 14px;
+    border-radius: 5px;
+    padding: 5px;
+}
